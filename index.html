@@ -957,107 +957,100 @@ body::before {
   <script>
     const data = [
 
-
-  {"id":201, "cat":"नूडल्स (Noodles)", "name":"वेज नूडल्स", "price":"₹30/₹50", "desc":"Delicious veg noodles available in half and full plate.", "tags":["Noodles"], "img":"img/veg-noodles.jpg"},
-  {"id":202, "cat":"नूडल्स (Noodles)", "name":"मनचुरियन नूडल्स", "price":"₹40/₹70", "desc":"Spicy manchurian noodles served hot (half/full).", "tags":["Noodles"], "img":"img/manchurian-noodles.jpg"},
-  {"id":203, "cat":"नूडल्स (Noodles)", "name":"पनीर नूडल्स", "price":"₹50/₹80", "desc":"Paneer flavored noodles cooked with Indian spices.", "tags":["Noodles"], "img":"img/paneer-noodles.jpg"},
-  {"id":204, "cat":"नूडल्स (Noodles)", "name":"चिकन नूडल्स", "price":"₹50/₹80", "desc":"Chicken noodles with special sauce and veggies.", "tags":["Noodles"], "img":"img/chicken-noodles.jpg"},
-  {"id":205, "cat":"नूडल्स (Noodles)", "name":"अंडा नूडल्स", "price":"₹50/₹80", "desc":"Egg noodles cooked with vegetables (half/full).", "tags":["Noodles"], "img":"img/egg-noodles.jpg"},
-  {"id":206, "cat":"नूडल्स (Noodles)", "name":"अंडा चिकन नूडल्स", "price":"₹60/₹100", "desc":"Egg and chicken noodles combo full of taste.", "tags":["Noodles"], "img":"img/egg-chicken-noodles.jpg"},
-  {"id":207, "cat":"नूडल्स (Noodles)", "name":"सेजवान नूडल्स", "price":"₹40/₹80", "desc":"Spicy schezwan noodles with Indo-Chinese flavor.", "tags":["Noodles"], "img":"img/schezwan-noodles.jpg"},
-  {"id":208, "cat":"नूडल्स (Noodles)", "name":"सेजवान चिकन नूडल्स", "price":"₹60/₹100", "desc":"Schezwan chicken noodles full of flavor and spice.", "tags":["Noodles"], "img":"img/schezwan-chicken-noodles.jpg"},
-  {"id":209, "cat":"नूडल्स (Noodles)", "name":"हक्का नूडल्स", "price":"₹50/₹80", "desc":"Classic Hakka noodles cooked with fresh vegetables.", "tags":["Noodles"], "img":"img/hakka-noodles.jpg"},
-  {"id":210, "cat":"नूडल्स (Noodles)", "name":"हक्का चिकन नूडल्स", "price":"₹60/₹100", "desc":"Hakka style chicken noodles cooked with soya and spice.", "tags":["Noodles"], "img":"img/hakka-chicken-noodles.jpg"},
-
-  {"id":211, "cat":"मनचुरियन (Manchurian)", "name":"वेज मनचुरियन ग्रेवी", "price":"₹40/₹70", "desc":"Veg Manchurian in thick Chinese gravy.", "tags":["Manchurian"], "img":"img/veg-manchurian-gravy.jpg"},
-  {"id":212, "cat":"मनचुरियन (Manchurian)", "name":"वेज मनचुरियन ड्राय", "price":"₹40/₹80", "desc":"Dry Veg Manchurian served crispy and spicy.", "tags":["Manchurian"], "img":"img/veg-manchurian-dry.jpg"},
-  {"id":213, "cat":"मनचुरियन (Manchurian)", "name":"सेजवान मनचुरियन", "price":"₹50/₹80", "desc":"Schezwan Manchurian in spicy sauce.", "tags":["Manchurian"], "img":"img/schezwan-manchurian.jpg"},
-  {"id":214, "cat":"मनचुरियन (Manchurian)", "name":"पनीर चिली", "price":"₹80/₹120", "desc":"Paneer chili with Chinese flavor.", "tags":["Paneer"], "img":"img/paneer-chilli.jpg"},
-  {"id":215, "cat":"मनचुरियन (Manchurian)", "name":"चिकन मनचुरियन ग्रेवी", "price":"₹60/₹100", "desc":"Chicken Manchurian in rich gravy.", "tags":["Chicken"], "img":"img/chicken-manchurian-gravy.jpg"},
-  {"id":216, "cat":"मनचुरियन (Manchurian)", "name":"चिकन मनचुरियन ड्राय", "price":"₹60/₹100", "desc":"Dry Chicken Manchurian with Schezwan flavor.", "tags":["Chicken"], "img":"img/chicken-manchurian-dry.jpg"},
-  {"id":217, "cat":"मनचुरियन (Manchurian)", "name":"फ्राय तंदूरी चिकन", "price":"₹200/₹400", "desc":"Fried tandoori chicken served half/full.", "tags":["Chicken"], "img":"img/fry-tandoori-chicken.jpg"},
-
-  {"id":218, "cat":"राईस (Rice)", "name":"वेज राईस", "price":"₹30/₹50", "desc":"Simple veg fried rice available in half and full plate.", "tags":["Rice"], "img":"img/veg-rice.jpg"},
-  {"id":219, "cat":"राईस (Rice)", "name":"मनचुरियन राईस", "price":"₹40/₹70", "desc":"Rice mixed with Manchurian gravy.", "tags":["Rice"], "img":"img/manchurian-rice.jpg"},
-  {"id":220, "cat":"राईस (Rice)", "name":"पनीर राईस", "price":"₹50/₹80", "desc":"Paneer rice with Indian spices.", "tags":["Rice"], "img":"img/paneer-rice.jpg"},
-  {"id":221, "cat":"राईस (Rice)", "name":"चिकन राईस", "price":"₹50/₹80", "desc":"Chicken fried rice (half/full).", "tags":["Rice"], "img":"img/chicken-rice.jpg"},
-  {"id":222, "cat":"राईस (Rice)", "name":"अंडा राईस", "price":"₹50/₹80", "desc":"Egg fried rice with veggies.", "tags":["Rice"], "img":"img/egg-rice.jpg"},
-  {"id":223, "cat":"राईस (Rice)", "name":"सेजवान राईस", "price":"₹50/₹90", "desc":"Spicy schezwan rice (half/full).", "tags":["Rice"], "img":"img/schezwan-rice.jpg"},
-
-  {"id":224, "cat":"रोल (Roll)", "name":"वेज रोल", "price":"₹30", "desc":"Crispy veg roll filled with spicy stuffing.", "tags":["Roll"], "img":"img/veg-roll.jpg"},
-  {"id":225, "cat":"रोल (Roll)", "name":"मनचुरियन रोल", "price":"₹40", "desc":"Manchurian stuffed roll.", "tags":["Roll"], "img":"img/manchurian-roll.jpg"},
-  {"id":226, "cat":"रोल (Roll)", "name":"अंडा रोल", "price":"₹50", "desc":"Egg roll wrapped in soft paratha.", "tags":["Roll"], "img":"img/egg-roll.jpg"},
-  {"id":227, "cat":"रोल (Roll)", "name":"अंडा चिकन रोल", "price":"₹60", "desc":"Egg chicken roll served hot.", "tags":["Roll"], "img":"img/egg-chicken-roll.jpg"},
-
-
-
-
-
-
-  {"id":228, "cat":"इंडियन (Indian)", "name":"दाल फ्राय (Dal Fry)", "price":"₹90", "desc":"Classic dal fry cooked with Indian spices and butter.", "tags":["Indian"], "img":"img/dal-fry.jpg"},
-  {"id":229, "cat":"इंडियन (Indian)", "name":"दाल तड़का (Dal Tadka)", "price":"₹100", "desc":"Yellow dal tempered with ghee, jeera, and garlic.", "tags":["Indian"], "img":"img/dal-tadka.jpg"},
-  {"id":230, "cat":"इंडियन (Indian)", "name":"पनीर मखनी मसाला (Paneer Makhani Masala)", "price":"₹150", "desc":"Paneer cubes cooked in rich creamy tomato gravy.", "tags":["Paneer"], "img":"img/paneer-makhani.jpg"},
-  {"id":231, "cat":"इंडियन (Indian)", "name":"पनीर मसाला (Paneer Masala)", "price":"₹100", "desc":"Spicy paneer masala with onion-tomato base.", "tags":["Paneer"], "img":"img/paneer-masala.jpg"},
-  {"id":232, "cat":"इंडियन (Indian)", "name":"आलू मसाला (Aloo Masala)", "price":"₹80", "desc":"Potato curry cooked with Indian spices.", "tags":["Indian"], "img":"img/aloo-masala.jpg"},
-  {"id":233, "cat":"इंडियन (Indian)", "name":"मिक्स वेज (Mix Veg)", "price":"₹100", "desc":"Mix of fresh vegetables in spicy gravy.", "tags":["Indian"], "img":"img/mix-veg.jpg"},
-  {"id":234, "cat":"इंडियन (Indian)", "name":"पालक पनीर (Palak Paneer)", "price":"₹100", "desc":"Paneer cubes cooked in spinach gravy.", "tags":["Paneer"], "img":"img/palak-paneer.jpg"},
-  {"id":235, "cat":"इंडियन (Indian)", "name":"सेजवान वेज (Schezwan Veg)", "price":"₹100", "desc":"Vegetables cooked in Schezwan sauce.", "tags":["Indian"], "img":"img/schezwan-veg.jpg"},
-  {"id":236, "cat":"इंडियन (Indian)", "name":"बैंगन भरता (Baingan Bharta)", "price":"₹90", "desc":"Smoky roasted brinjal mashed with spices.", "tags":["Indian"], "img":"img/baingan-bharta.jpg"},
-  {"id":237, "cat":"इंडियन (Indian)", "name":"टमाटर चटनी (Tomato Chutney)", "price":"₹50", "desc":"Homemade tomato chutney with Indian spices.", "tags":["Indian"], "img":"img/tomato-chutney.jpg"},
-  {"id":238, "cat":"इंडियन (Indian)", "name":"तवा रोटी (Tawa Roti)", "price":"₹10", "desc":"Soft wheat roti cooked on tawa.", "tags":["Indian"], "img":"img/tawa-roti.jpg"},
-  {"id":239, "cat":"इंडियन (Indian)", "name":"जीरा राइस (Jeera Rice)", "price":"₹40/₹70", "desc":"Cumin-flavored rice cooked in ghee (half/full).", "tags":["Rice"], "img":"img/jeera-rice.jpg"},
-  {"id":240, "cat":"इंडियन (Indian)", "name":"लेमन राइस (Lemon Rice)", "price":"₹30/₹50", "desc":"South Indian lemon-flavored rice (half/full).", "tags":["Rice"], "img":"img/lemon-rice.jpg"},
-  {"id":241, "cat":"इंडियन (Indian)", "name":"चिकन बिरयानी (Chicken Biryani)", "price":"₹80/₹150", "desc":"Aromatic chicken biryani cooked with basmati rice.", "tags":["Chicken"], "img":"img/chicken-biryani.jpg"},
-  {"id":242, "cat":"इंडियन (Indian)", "name":"अंडा बिरयानी (Egg Biryani)", "price":"₹80/₹150", "desc":"Egg biryani cooked in Hyderabadi style.", "tags":["Egg"], "img":"img/egg-biryani.jpg"},
-  {"id":243, "cat":"इंडियन (Indian)", "name":"अंडा करी (Egg Curry)", "price":"₹90/₹150", "desc":"Boiled eggs in spicy curry (half/full).", "tags":["Egg"], "img":"img/egg-curry.jpg"},
-  {"id":244, "cat":"इंडियन (Indian)", "name":"चिकन करी (Chicken Curry)", "price":"₹90/₹150", "desc":"Traditional Indian-style chicken curry.", "tags":["Chicken"], "img":"img/chicken-curry.jpg"},
-  {"id":245, "cat":"इंडियन (Indian)", "name":"अंडा आमलेट (Egg Omelette)", "price":"₹60", "desc":"Fluffy egg omelette cooked with onions and chilies.", "tags":["Egg"], "img":"img/egg-omelette.jpg"},
-  {"id":246, "cat":"इंडियन (Indian)", "name":"अंडा भुर्जी (Egg Bhurji)", "price":"₹60", "desc":"Scrambled eggs with spices and herbs.", "tags":["Egg"], "img":"img/egg-bhurji.jpg"},
-  {"id":247, "cat":"इंडियन (Indian)", "name":"अंडा भुर्जी करी (Egg Bhurji Curry)", "price":"₹90", "desc":"Spicy curry made from egg bhurji.", "tags":["Egg"], "img":"img/egg-bhurji-curry.jpg"},
-  {"id":248, "cat":"इंडियन (Indian)", "name":"अंडा मसाला (Egg Masala)", "price":"₹100", "desc":"Eggs cooked in flavorful masala gravy.", "tags":["Egg"], "img":"img/egg-masala.jpg"},
-
-
-
-  {"id":201, "cat":"स्पेशल कॉम्बो (Special Combo)", "name":"दाल फ्राय + 4 रोटी + पापड", "price":"₹100", "desc":"Delicious Dal Fry served with 4 soft rotis and crispy papad.", "tags":["Combo","Indian"], "img":"img/dal-fry-combo.jpg"},
-  {"id":202, "cat":"स्पेशल कॉम्बो (Special Combo)", "name":"गोभी मस्सल + 4 रोटी + पापड", "price":"₹100", "desc":"Spicy Gobi Masala served with 4 rotis and papad.", "tags":["Combo","Indian"], "img":"img/gobi-masala-combo.jpg"},
-  {"id":203, "cat":"स्पेशल कॉम्बो (Special Combo)", "name":"पनीर मस्सल + 4 रोटी + पापड", "price":"₹130", "desc":"Paneer Masala combo with 4 fresh rotis and crispy papad.", "tags":["Combo","Indian"], "img":"img/paneer-masala-combo.jpg"},
-  {"id":204, "cat":"स्पेशल कॉम्बो (Special Combo)", "name":"अंडा भुर्जी + 4 रोटी + पापड", "price":"₹120", "desc":"Egg Bhurji served with 4 rotis and papad.", "tags":["Combo","Egg"], "img":"img/egg-bhurji-combo.jpg"},
-  {"id":205, "cat":"स्पेशल कॉम्बो (Special Combo)", "name":"अंडा करी + 4 रोटी + पापड", "price":"₹130", "desc":"Egg Curry combo with 4 rotis and papad.", "tags":["Combo","Egg"], "img":"img/egg-curry-combo.jpg"},
-  {"id":206, "cat":"स्पेशल कॉम्बो (Special Combo)", "name":"चिकन मस्सल + 4 रोटी + पापड", "price":"₹150", "desc":"Chicken Masala served with 4 rotis and papad.", "tags":["Combo","Chicken"], "img":"img/chicken-masala-combo.jpg"},
-  {"id":207, "cat":"स्पेशल कॉम्बो (Special Combo)", "name":"चिकन फ्राय + 4 रोटी + पापड", "price":"₹200", "desc":"Crispy Chicken Fry combo served with 4 rotis and papad.", "tags":["Combo","Chicken"], "img":"img/chicken-fry-combo.jpg"},
-  {"id":208, "cat":"स्पेशल कॉम्बो (Special Combo)", "name":"2 प्लेट वेज नूडल्स", "price":"₹100", "desc":"2 plates of Veg Noodles combo, perfect for sharing.", "tags":["Combo","Chinese"], "img":"img/veg-noodles-combo.jpg"},
-  {"id":209, "cat":"स्पेशल कॉम्बो (Special Combo)", "name":"वेज नूडल + वेज मंचूरियन (ग्रेवी)", "price":"₹110", "desc":"Veg Noodles with Veg Manchurian Gravy combo meal.", "tags":["Combo","Chinese"], "img":"img/veg-noodles-manchurian-combo.jpg"},
-  {"id":210, "cat":"स्पेशल कॉम्बो (Special Combo)", "name":"वेज राईस + वेज मंचूरियन", "price":"₹110", "desc":"Veg Fried Rice with Veg Manchurian combo.", "tags":["Combo","Chinese"], "img":"img/veg-rice-manchurian-combo.jpg"},
-  {"id":211, "cat":"स्पेशल कॉम्बो (Special Combo)", "name":"चिकन नूडल + चिकन मंचूरियन", "price":"₹180", "desc":"Chicken Noodles and Chicken Manchurian combo pack.", "tags":["Combo","Chinese","Chicken"], "img":"img/chicken-noodle-manchurian-combo.jpg"},
-
-
-
-
-
-  {"id":401, "cat":"नूडल्स (Noodles)", "name":"वेज नूडल्स", "price":"-", "desc":"Delicious veg noodles cooked with fresh vegetables.", "tags":["Noodles","Veg"], "img":"img/veg-noodles.jpg"},
-  {"id":402, "cat":"राईस (Rice)", "name":"वेज राईस", "price":"-", "desc":"Tasty veg fried rice prepared with aromatic spices.", "tags":["Rice","Veg"], "img":"img/veg-fried-rice.jpg"},
-  {"id":403, "cat":"रोल (Roll)", "name":"वेज रोल", "price":"-", "desc":"Soft and flavorful veg roll filled with spicy stuffing.", "tags":["Roll","Veg"], "img":"img/veg-roll.jpg"},
-  
-  {"id":404, "cat":"मंचुरियन (Manchurian)", "name":"वेज मंचुरियन", "price":"-", "desc":"Crispy Manchurian balls tossed in tangy sauce.", "tags":["Chinese","Veg"], "img":"img/veg-manchurian.jpg"},
-  {"id":405, "cat":"इंडियन (Indian)", "name":"चिली पनीर", "price":"-", "desc":"Paneer cubes cooked in spicy chili sauce.", "tags":["Indian","Paneer"], "img":"img/chilli-paneer.jpg"},
-  {"id":406, "cat":"इंडियन (Indian)", "name":"चिली चिकन", "price":"-", "desc":"Spicy and flavorful chili chicken dish.", "tags":["Indian","Chicken"], "img":"img/chilli-chicken.jpg"},
-  
-  {"id":407, "cat":"इंडियन (Indian)", "name":"दाल फ्राय", "price":"-", "desc":"Classic dal fry made with Indian spices.", "tags":["Indian","Dal"], "img":"img/dal-fry.jpg"},
-  {"id":408, "cat":"इंडियन (Indian)", "name":"गोभी मटर", "price":"-", "desc":"Delicious gobi matar curry cooked with spices.", "tags":["Indian","Veg"], "img":"img/gobi-matar.jpg"},
-  {"id":409, "cat":"इंडियन (Indian)", "name":"पनीर मटर", "price":"-", "desc":"Paneer and green peas cooked in flavorful curry.", "tags":["Indian","Paneer"], "img":"img/paneer-matar.jpg"},
-  {"id":410, "cat":"इंडियन (Indian)", "name":"अंडा करी", "price":"-", "desc":"Boiled eggs simmered in spicy curry.", "tags":["Indian","Egg"], "img":"img/egg-curry.jpg"},
-  {"id":411, "cat":"इंडियन (Indian)", "name":"चिकन करी", "price":"-", "desc":"Traditional chicken curry with Indian masala.", "tags":["Indian","Chicken"], "img":"img/chicken-curry.jpg"},
-  {"id":412, "cat":"इंडियन (Indian)", "name":"मटन करी", "price":"-", "desc":"Rich and spicy mutton curry cooked with Indian spices.", "tags":["Indian","Mutton"], "img":"img/mutton-curry.jpg"},
-  
-  {"id":413, "cat":"इंडियन (Indian)", "name":"रोटी", "price":"-", "desc":"Soft Indian bread made from wheat flour.", "tags":["Bread"], "img":"img/roti.jpg"},
-
-
-
-
-
-
-
  
+  {"id":1, "cat":"नूडल्स (Noodles)", "name":"वेज नूडल्स (हाफ)", "price":"₹30", "desc":"Delicious veg noodles available in half plate.", "tags":["Noodles"], "img":"img/veg-noodles.jpeg"},
+  {"id":2, "cat":"नूडल्स (Noodles)", "name":"वेज नूडल्स (फुल)", "price":"₹50", "desc":"Delicious veg noodles available in full plate.", "tags":["Noodles"], "img":"img/veg-noodles.jpeg"},
+  {"id":3, "cat":"नूडल्स (Noodles)", "name":"मनचुरियन नूडल्स (हाफ)", "price":"₹40", "desc":"Spicy manchurian noodles served hot (half).", "tags":["Noodles"], "img":"img/manchurian-noodles.jpeg"},
+  {"id":4, "cat":"नूडल्स (Noodles)", "name":"मनचुरियन नूडल्स (फुल)", "price":"₹70", "desc":"Spicy manchurian noodles served hot (full).", "tags":["Noodles"], "img":"img/manchurian-noodles.jpeg"},
+  {"id":5, "cat":"नूडल्स (Noodles)", "name":"पनीर नूडल्स (हाफ)", "price":"₹50", "desc":"Paneer flavored noodles cooked with Indian spices.", "tags":["Noodles"], "img":"img/paneer-noodles.jpeg"},
+  {"id":6, "cat":"नूडल्स (Noodles)", "name":"पनीर नूडल्स (फुल)", "price":"₹80", "desc":"Paneer flavored noodles cooked with Indian spices.", "tags":["Noodles"], "img":"img/paneer-noodles.jpeg"},
+  {"id":7, "cat":"नूडल्स (Noodles)", "name":"चिकन नूडल्स (हाफ)", "price":"₹50", "desc":"Chicken noodles with special sauce and veggies.", "tags":["Noodles"], "img":"img/chicken-noodles.jpeg"},
+  {"id":8, "cat":"नूडल्स (Noodles)", "name":"चिकन नूडल्स (फुल)", "price":"₹80", "desc":"Chicken noodles with special sauce and veggies.", "tags":["Noodles"], "img":"img/chicken-noodles.jpeg"},
+  {"id":9, "cat":"नूडल्स (Noodles)", "name":"अंडा नूडल्स (हाफ)", "price":"₹50", "desc":"Egg noodles cooked with vegetables (half).", "tags":["Noodles"], "img":"img/egg-noodles.jpeg"},
+  {"id":10, "cat":"नूडल्स (Noodles)", "name":"अंडा नूडल्स (फुल)", "price":"₹80", "desc":"Egg noodles cooked with vegetables (full).", "tags":["Noodles"], "img":"img/egg-noodles.jpeg"},
+  {"id":11, "cat":"नूडल्स (Noodles)", "name":"अंडा चिकन नूडल्स (हाफ)", "price":"₹60", "desc":"Egg and chicken noodles combo full of taste.", "tags":["Noodles"], "img":"img/egg-chicken-noodles.jpeg"},
+  {"id":12, "cat":"नूडल्स (Noodles)", "name":"अंडा चिकन नूडल्स (फुल)", "price":"₹100", "desc":"Egg and chicken noodles combo full of taste.", "tags":["Noodles"], "img":"img/egg-chicken-noodles.jpeg"},
+  {"id":13, "cat":"नूडल्स (Noodles)", "name":"सेजवान नूडल्स (हाफ)", "price":"₹40", "desc":"Spicy schezwan noodles with Indo-Chinese flavor.", "tags":["Noodles"], "img":"img/schezwan-noodles.jpeg"},
+  {"id":14, "cat":"नूडल्स (Noodles)", "name":"सेजवान नूडल्स (फुल)", "price":"₹80", "desc":"Spicy schezwan noodles with Indo-Chinese flavor.", "tags":["Noodles"], "img":"img/schezwan-noodles.jpeg"},
+  {"id":15, "cat":"नूडल्स (Noodles)", "name":"सेजवान चिकन नूडल्स (हाफ)", "price":"₹60", "desc":"Schezwan chicken noodles full of flavor and spice.", "tags":["Noodles"], "img":"img/schezwan-chicken-noodles.jpeg"},
+  {"id":16, "cat":"नूडल्स (Noodles)", "name":"सेजवान चिकन नूडल्स (फुल)", "price":"₹100", "desc":"Schezwan chicken noodles full of flavor and spice.", "tags":["Noodles"], "img":"img/schezwan-chicken-noodles.jpeg"},
+  {"id":17, "cat":"नूडल्स (Noodles)", "name":"हक्का नूडल्स (हाफ)", "price":"₹50", "desc":"Classic Hakka noodles cooked with fresh vegetables.", "tags":["Noodles"], "img":"img/hakka-noodles.jpeg"},
+  {"id":18, "cat":"नूडल्स (Noodles)", "name":"हक्का नूडल्स (फुल)", "price":"₹80", "desc":"Classic Hakka noodles cooked with fresh vegetables.", "tags":["Noodles"], "img":"img/hakka-noodles.jpeg"},
+  {"id":19, "cat":"नूडल्स (Noodles)", "name":"हक्का चिकन नूडल्स (हाफ)", "price":"₹60", "desc":"Hakka style chicken noodles cooked with soya and spice.", "tags":["Noodles"], "img":"img/hakka-chicken-noodles.jpeg"},
+  {"id":20, "cat":"नूडल्स (Noodles)", "name":"हक्का चिकन नूडल्स (फुल)", "price":"₹100", "desc":"Hakka style chicken noodles cooked with soya and spice.", "tags":["Noodles"], "img":"img/hakka-chicken-noodles.jpeg"},
+
+  {"id":21, "cat":"मनचुरियन (Manchurian)", "name":"वेज मनचुरियन ग्रेवी (हाफ)", "price":"₹40", "desc":"Veg Manchurian in thick Chinese gravy.", "tags":["Manchurian"], "img":"img/veg-manchurian-gravy.jpeg"},
+  {"id":22, "cat":"मनचुरियन (Manchurian)", "name":"वेज मनचुरियन ग्रेवी (फुल)", "price":"₹70", "desc":"Veg Manchurian in thick Chinese gravy.", "tags":["Manchurian"], "img":"img/veg-manchurian-gravy.jpeg"},
+  {"id":23, "cat":"मनचुरियन (Manchurian)", "name":"वेज मनचुरियन ड्राय (हाफ)", "price":"₹40", "desc":"Dry Veg Manchurian served crispy and spicy.", "tags":["Manchurian"], "img":"img/veg-manchurian-dry.jpeg"},
+  {"id":24, "cat":"मनचुरियन (Manchurian)", "name":"वेज मनचुरियन ड्राय (फुल)", "price":"₹80", "desc":"Dry Veg Manchurian served crispy and spicy.", "tags":["Manchurian"], "img":"img/veg-manchurian-dry.jpeg"},
+  {"id":25, "cat":"मनचुरियन (Manchurian)", "name":"सेजवान मनचुरियन (हाफ)", "price":"₹50", "desc":"Schezwan Manchurian in spicy sauce.", "tags":["Manchurian"], "img":"img/schezwan-manchurian.jpeg"},
+  {"id":26, "cat":"मनचुरियन (Manchurian)", "name":"सेजवान मनचुरियन (फुल)", "price":"₹80", "desc":"Schezwan Manchurian in spicy sauce.", "tags":["Manchurian"], "img":"img/schezwan-manchurian.jpeg"},
+  {"id":27, "cat":"मनचुरियन (Manchurian)", "name":"पनीर चिली (हाफ)", "price":"₹80", "desc":"Paneer chili with Chinese flavor.", "tags":["Paneer"], "img":"img/paneer-chilli.jpeg"},
+  {"id":28, "cat":"मनचुरियन (Manchurian)", "name":"पनीर चिली (फुल)", "price":"₹120", "desc":"Paneer chili with Chinese flavor.", "tags":["Paneer"], "img":"img/paneer-chilli.jpeg"},
+  {"id":29, "cat":"मनचुरियन (Manchurian)", "name":"चिकन मनचुरियन ग्रेवी (हाफ)", "price":"₹60", "desc":"Chicken Manchurian in rich gravy.", "tags":["Chicken"], "img":"img/chicken-manchurian-gravy.jpeg"},
+  {"id":30, "cat":"मनचुरियन (Manchurian)", "name":"चिकन मनचुरियन ग्रेवी (फुल)", "price":"₹100", "desc":"Chicken Manchurian in rich gravy.", "tags":["Chicken"], "img":"img/chicken-manchurian-gravy.jpeg"},
+  {"id":31, "cat":"मनचुरियन (Manchurian)", "name":"चिकन मनचुरियन ड्राय (हाफ)", "price":"₹60", "desc":"Dry Chicken Manchurian with Schezwan flavor.", "tags":["Chicken"], "img":"img/chicken-manchurian-dry.jpeg"},
+  {"id":32, "cat":"मनचुरियन (Manchurian)", "name":"चिकन मनचुरियन ड्राय (फुल)", "price":"₹100", "desc":"Dry Chicken Manchurian with Schezwan flavor.", "tags":["Chicken"], "img":"img/chicken-manchurian-dry.jpeg"},
+  {"id":33, "cat":"मनचुरियन (Manchurian)", "name":"फ्राय तंदूरी चिकन (हाफ)", "price":"₹200", "desc":"Fried tandoori chicken served half.", "tags":["Chicken"], "img":"img/fry-tandoori-chicken.jpeg"},
+  {"id":34, "cat":"मनचुरियन (Manchurian)", "name":"फ्राय तंदूरी चिकन (फुल)", "price":"₹400", "desc":"Fried tandoori chicken served full.", "tags":["Chicken"], "img":"img/fry-tandoori-chicken.jpeg"},
+
+  {"id":35, "cat":"राईस (Rice)", "name":"वेज राईस (हाफ)", "price":"₹30", "desc":"Simple veg fried rice available in half plate.", "tags":["Rice"], "img":"img/veg-rice.jpeg"},
+  {"id":36, "cat":"राईस (Rice)", "name":"वेज राईस (फुल)", "price":"₹50", "desc":"Simple veg fried rice available in full plate.", "tags":["Rice"], "img":"img/veg-rice.jpeg"},
+  {"id":37, "cat":"राईस (Rice)", "name":"मनचुरियन राईस (हाफ)", "price":"₹40", "desc":"Rice mixed with Manchurian gravy.", "tags":["Rice"], "img":"img/manchurian-rice.jpeg"},
+  {"id":38, "cat":"राईस (Rice)", "name":"मनचुरियन राईस (फुल)", "price":"₹70", "desc":"Rice mixed with Manchurian gravy.", "tags":["Rice"], "img":"img/manchurian-rice.jpeg"},
+  {"id":39, "cat":"राईस (Rice)", "name":"पनीर राईस (हाफ)", "price":"₹50", "desc":"Paneer rice with Indian spices.", "tags":["Rice"], "img":"img/paneer-rice.jpeg"},
+  {"id":40, "cat":"राईस (Rice)", "name":"पनीर राईस (फुल)", "price":"₹80", "desc":"Paneer rice with Indian spices.", "tags":["Rice"], "img":"img/paneer-rice.jpeg"},
+  {"id":41, "cat":"राईस (Rice)", "name":"चिकन राईस (हाफ)", "price":"₹50", "desc":"Chicken fried rice (half).", "tags":["Rice"], "img":"img/chicken-rice.jpeg"},
+  {"id":42, "cat":"राईस (Rice)", "name":"चिकन राईस (फुल)", "price":"₹80", "desc":"Chicken fried rice (full).", "tags":["Rice"], "img":"img/chicken-rice.jpeg"},
+  {"id":43, "cat":"राईस (Rice)", "name":"अंडा राईस (हाफ)", "price":"₹50", "desc":"Egg fried rice with veggies.", "tags":["Rice"], "img":"img/egg-rice.jpeg"},
+  {"id":44, "cat":"राईस (Rice)", "name":"अंडा राईस (फुल)", "price":"₹80", "desc":"Egg fried rice with veggies.", "tags":["Rice"], "img":"img/egg-rice.jpeg"},
+  {"id":45, "cat":"राईस (Rice)", "name":"सेजवान राईस (हाफ)", "price":"₹50", "desc":"Spicy schezwan rice (half).", "tags":["Rice"], "img":"img/schezwan-rice.jpeg"},
+  {"id":46, "cat":"राईस (Rice)", "name":"सेजवान राईस (फुल)", "price":"₹90", "desc":"Spicy schezwan rice (full).", "tags":["Rice"], "img":"img/schezwan-rice.jpeg"},
+
+  {"id":47, "cat":"रोल (Roll)", "name":"वेज रोल", "price":"₹30", "desc":"Crispy veg roll filled with spicy stuffing.", "tags":["Roll"], "img":"img/veg-roll.jpeg"},
+  {"id":48, "cat":"रोल (Roll)", "name":"मनचुरियन रोल", "price":"₹40", "desc":"Manchurian stuffed roll.", "tags":["Roll"], "img":"img/manchurian-roll.jpeg"},
+  {"id":49, "cat":"रोल (Roll)", "name":"अंडा रोल", "price":"₹50", "desc":"Egg roll wrapped in soft paratha.", "tags":["Roll"], "img":"img/egg-roll.jpeg"},
+  {"id":50, "cat":"रोल (Roll)", "name":"अंडा चिकन रोल", "price":"₹60", "desc":"Egg chicken roll served hot.", "tags":["Roll"], "img":"img/egg-chicken-roll.jpeg"},
+
+  {"id":51, "cat":"इंडियन (Indian)", "name":"दाल फ्राय", "price":"₹90", "desc":"Classic dal fry cooked with Indian spices and butter.", "tags":["Indian"], "img":"img/dal-fry.jpeg"},
+  {"id":52, "cat":"इंडियन (Indian)", "name":"दाल तड़का", "price":"₹100", "desc":"Yellow dal tempered with ghee, jeera, and garlic.", "tags":["Indian"], "img":"img/dal-tadka.jpeg"},
+  {"id":53, "cat":"इंडियन (Indian)", "name":"पनीर मखनी मसाला", "price":"₹150", "desc":"Paneer cubes cooked in rich creamy tomato gravy.", "tags":["Paneer"], "img":"img/paneer-makhani.jpeg"},
+  {"id":54, "cat":"इंडियन (Indian)", "name":"पनीर मसाला", "price":"₹100", "desc":"Spicy paneer masala with onion-tomato base.", "tags":["Paneer"], "img":"img/paneer-masala.jpeg"},
+  {"id":55, "cat":"इंडियन (Indian)", "name":"आलू मसाला", "price":"₹80", "desc":"Potato curry cooked with Indian spices.", "tags":["Indian"], "img":"img/aloo-masala.jpeg"},
+  {"id":56, "cat":"इंडियन (Indian)", "name":"मिक्स वेज", "price":"₹100", "desc":"Mix of fresh vegetables in spicy gravy.", "tags":["Indian"], "img":"img/mix-veg.jpeg"},
+  {"id":57, "cat":"इंडियन (Indian)", "name":"पालक पनीर", "price":"₹100", "desc":"Paneer cubes cooked in spinach gravy.", "tags":["Paneer"], "img":"img/palak-paneer.jpeg"},
+  {"id":58, "cat":"इंडियन (Indian)", "name":"सेजवान वेज", "price":"₹100", "desc":"Vegetables cooked in Schezwan sauce.", "tags":["Indian"], "img":"img/schezwan-veg.jpeg"},
+  {"id":59, "cat":"इंडियन (Indian)", "name":"बैंगन भरता", "price":"₹90", "desc":"Smoky roasted brinjal mashed with spices.", "tags":["Indian"], "img":"img/baingan-bharta.jpeg"},
+  {"id":60, "cat":"इंडियन (Indian)", "name":"टमाटर चटनी", "price":"₹50", "desc":"Homemade tomato chutney with Indian spices.", "tags":["Indian"], "img":"img/tomato-chutney.jpeg"},
+  {"id":61, "cat":"इंडियन (Indian)", "name":"तवा रोटी", "price":"₹10", "desc":"Soft wheat roti cooked on tawa.", "tags":["Indian"], "img":"img/tawa-roti.jpeg"},
+  {"id":62, "cat":"इंडियन (Indian)", "name":"जीरा राइस (हाफ)", "price":"₹40", "desc":"Cumin-flavored rice cooked in ghee (half).", "tags":["Rice"], "img":"img/jeera-rice.jpeg"},
+  {"id":63, "cat":"इंडियन (Indian)", "name":"जीरा राइस (फुल)", "price":"₹70", "desc":"Cumin-flavored rice cooked in ghee (full).", "tags":["Rice"], "img":"img/jeera-rice.jpeg"},
+  {"id":64, "cat":"इंडियन (Indian)", "name":"लेमन राइस (हाफ)", "price":"₹30", "desc":"South Indian lemon-flavored rice (half).", "tags":["Rice"], "img":"img/lemon-rice.jpeg"},
+  {"id":65, "cat":"इंडियन (Indian)", "name":"लेमन राइस (फुल)", "price":"₹50", "desc":"South Indian lemon-flavored rice (full).", "tags":["Rice"], "img":"img/lemon-rice.jpeg"},
+  {"id":66, "cat":"इंडियन (Indian)", "name":"चिकन बिरयानी (हाफ)", "price":"₹80", "desc":"Aromatic chicken biryani cooked with basmati rice.", "tags":["Chicken"], "img":"img/chicken-biryani.jpeg"},
+  {"id":67, "cat":"इंडियन (Indian)", "name":"चिकन बिरयानी (फुल)", "price":"₹150", "desc":"Aromatic chicken biryani cooked with basmati rice.", "tags":["Chicken"], "img":"img/chicken-biryani.jpeg"},
+  {"id":68, "cat":"इंडियन (Indian)", "name":"अंडा बिरयानी (हाफ)", "price":"₹80", "desc":"Egg biryani cooked in Hyderabadi style.", "tags":["Egg"], "img":"img/egg-biryani.jpeg"},
+  {"id":69, "cat":"इंडियन (Indian)", "name":"अंडा बिरयानी (फुल)", "price":"₹150", "desc":"Egg biryani cooked in Hyderabadi style.", "tags":["Egg"], "img":"img/egg-biryani.jpeg"},
+  {"id":70, "cat":"इंडियन (Indian)", "name":"अंडा करी (हाफ)", "price":"₹90", "desc":"Boiled eggs in spicy curry (half).", "tags":["Egg"], "img":"img/egg-curry.jpeg"},
+  {"id":71, "cat":"इंडियन (Indian)", "name":"अंडा करी (फुल)", "price":"₹150", "desc":"Boiled eggs in spicy curry (full).", "tags":["Egg"], "img":"img/egg-curry.jpeg"},
+  {"id":72, "cat":"इंडियन (Indian)", "name":"चिकन करी (हाफ)", "price":"₹90", "desc":"Traditional Indian-style chicken curry.", "tags":["Chicken"], "img":"img/chicken-curry.jpeg"},
+  {"id":73, "cat":"इंडियन (Indian)", "name":"चिकन करी (फुल)", "price":"₹150", "desc":"Traditional Indian-style chicken curry.", "tags":["Chicken"], "img":"img/chicken-curry.jpeg"},
+  {"id":74, "cat":"इंडियन (Indian)", "name":"अंडा आमलेट", "price":"₹60", "desc":"Fluffy egg omelette cooked with onions and chilies.", "tags":["Egg"], "img":"img/egg-omelette.jpeg"},
+  {"id":75, "cat":"इंडियन (Indian)", "name":"अंडा भुर्जी", "price":"₹60", "desc":"Scrambled eggs with spices and herbs.", "tags":["Egg"], "img":"img/egg-bhurji.jpeg"},
+  {"id":76, "cat":"इंडियन (Indian)", "name":"अंडा भुर्जी करी", "price":"₹90", "desc":"Spicy curry made from egg bhurji.", "tags":["Egg"], "img":"img/egg-bhurji-curry.jpeg"},
+  {"id":77, "cat":"इंडियन (Indian)", "name":"अंडा मसाला", "price":"₹100", "desc":"Eggs cooked in flavorful masala gravy.", "tags":["Egg"], "img":"img/egg-masala.jpeg"},
+
+  {"id":78, "cat":"स्पेशल कॉम्बो (Special Combo)", "name":"दाल फ्राय + 4 रोटी + पापड", "price":"₹100", "desc":"Delicious Dal Fry served with 4 soft rotis and crispy papad.", "tags":["Combo","Indian"], "img":"img/dal-fry-combo.jpg"},
+  {"id":79, "cat":"स्पेशल कॉम्बो (Special Combo)", "name":"गोभी मस्सल + 4 रोटी + पापड", "price":"₹100", "desc":"Spicy Gobi Masala served with 4 rotis and papad.", "tags":["Combo","Indian"], "img":"img/gobi-masala-combo.jpg"},
+  {"id":80, "cat":"स्पेशल कॉम्बो (Special Combo)", "name":"पनीर मस्सल + 4 रोटी + पापड", "price":"₹130", "desc":"Paneer Masala combo with 4 fresh rotis and crispy papad.", "tags":["Combo","Indian"], "img":"img/paneer-masala-combo.jpg"},
+  {"id":81, "cat":"स्पेशल कॉम्बो (Special Combo)", "name":"अंडा भुर्जी + 4 रोटी + पापड", "price":"₹120", "desc":"Egg Bhurji served with 4 rotis and papad.", "tags":["Combo","Egg"], "img":"img/egg-bhurji-combo.jpg"},
+  {"id":82, "cat":"स्पेशल कॉम्बो (Special Combo)", "name":"अंडा करी + 4 रोटी + पापड", "price":"₹130", "desc":"Egg Curry combo with 4 rotis and papad.", "tags":["Combo","Egg"], "img":"img/egg-curry-combo.jpg"},
+  {"id":83, "cat":"स्पेशल कॉम्बो (Special Combo)", "name":"चिकन मस्सल + 4 रोटी + पापड", "price":"₹150", "desc":"Chicken Masala served with 4 rotis and papad.", "tags":["Combo","Chicken"], "img":"img/chicken-masala-combo.jpg"},
+  {"id":84, "cat":"स्पेशल कॉम्बो (Special Combo)", "name":"चिकन फ्राय + 4 रोटी + पापड", "price":"₹200", "desc":"Crispy Chicken Fry combo served with 4 rotis and papad.", "tags":["Combo","Chicken"], "img":"img/chicken-fry-combo.jpg"},
+  {"id":85, "cat":"स्पेशल कॉम्बो (Special Combo)", "name":"2 प्लेट वेज नूडल्स", "price":"₹100", "desc":"2 plates of Veg Noodles combo, perfect for sharing.", "tags":["Combo","Chinese"], "img":"img/veg-noodles-combo.jpg"},
+  {"id":86, "cat":"स्पेशल कॉम्बो (Special Combo)", "name":"वेज नूडल + वेज मंचूरियन (ग्रेवी)", "price":"₹110", "desc":"Veg Noodles with Veg Manchurian Gravy combo meal.", "tags":["Combo","Chinese"], "img":"img/veg-noodles-manchurian-combo.jpg"},
+  {"id":87, "cat":"स्पेशल कॉम्बो (Special Combo)", "name":"वेज राईस + वेज मंचूरियन", "price":"₹110", "desc":"Veg Fried Rice with Veg Manchurian combo.", "tags":["Combo","Chinese"], "img":"img/veg-rice-manchurian-combo.jpg"},
+  {"id":88, "cat":"स्पेशल कॉम्बो (Special Combo)", "name":"चिकन नूडल + चिकन मंचूरियन", "price":"₹180", "desc":"Chicken Noodles and Chicken Manchurian combo pack.", "tags":["Combo","Chinese","Chicken"], "img":"img/chicken-noodle-manchurian-combo.jpg"},
 
 ];
 
@@ -1296,13 +1289,3 @@ body::before {
   </script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
